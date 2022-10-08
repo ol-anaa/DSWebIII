@@ -13,7 +13,8 @@ namespace ProjetoEscola_API.Models
         [Required]
         [StringLength(30)]
         public string? nome { get; set; }
-        
+
+        [Required]
         public int codCurso { get; set; }
     }
 }

@@ -5,6 +5,8 @@ namespace ProjetoEscola_API.Models
     public class Curso
     {
         public int id { get; set; }
+
+        [Required]
         public int codCurso { get; set; }
 
         [Required]
