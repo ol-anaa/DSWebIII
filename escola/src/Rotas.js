@@ -14,15 +14,14 @@ export default function Rotas() {
                         <div>Cadastro de alunos, cursos e carômetro</div>
                     </Main>}
             />
+
             <Route path='/alunos' element={<CrudAluno />} />
             <Route path='/cursos' element={<CrudCurso />} />
             <Route path='/carometro' element={<Carometro />} />
             <Route path='*' element={
-
                 <Main title="Bem Vindo!">
                     <div>Página não encontrada</div>
                 </Main>} />
-
         </Routes>
     )
 }
