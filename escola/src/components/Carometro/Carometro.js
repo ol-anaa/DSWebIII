@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import './Carometro.css';
-import Card from 'react-bootstrap/Card';
+//import Card from 'react-bootstrap/Card';
 //import 'bootstrap'
 import Main from '../template/Main';
 
