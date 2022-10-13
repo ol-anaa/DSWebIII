@@ -1967,19 +1967,27 @@
     ]
   },
   "packageFolders": {
-    "/Users/u21816/.nuget/packages/": {}
+    "/Users/u20669/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "/Users/u21816/escola/DsWebIII/ProjetoEscola_API/ProjetoEscola_API.csproj",
       "projectName": "ProjetoEscola_API",
       "projectPath": "/Users/u21816/escola/DsWebIII/ProjetoEscola_API/ProjetoEscola_API.csproj",
       "packagesPath": "/Users/u21816/.nuget/packages/",
       "outputPath": "/Users/u21816/escola/DsWebIII/ProjetoEscola_API/obj/",
+=======
+      "projectUniqueName": "/Users/u20669/Documents/GitHub/DSWebIII/ProjetoEscola_API/ProjetoEscola_API.csproj",
+      "projectName": "ProjetoEscola_API",
+      "projectPath": "/Users/u20669/Documents/GitHub/DSWebIII/ProjetoEscola_API/ProjetoEscola_API.csproj",
+      "packagesPath": "/Users/u20669/.nuget/packages/",
+      "outputPath": "/Users/u20669/Documents/GitHub/DSWebIII/ProjetoEscola_API/obj/",
+>>>>>>> 649342614d573f40e3389c502160d88deba86ca4
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/u21816/.nuget/NuGet/NuGet.Config"
+        "/Users/u20669/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2030,7 +2038,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
       }
     }
   }
