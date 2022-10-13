@@ -7,7 +7,7 @@ import Main from '../template/Main';
 
 const title = "Carômetro";
 
-const urlAPI = "http://localhost:5255/api/carometro";
+const urlAPI = "http://localhost:5255/api/aluno";
 const urlAPICurso = "http://localhost:5255/api/curso";
 const urlAPIAluno = "http://localhost:5255/api/aluno";
 
