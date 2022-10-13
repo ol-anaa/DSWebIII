@@ -7,7 +7,7 @@ import Main from '../template/Main';
 
 const title = "Carômetro";
 
-const urlAPI = "http://localhost:5255/api/carometro";
+const urlAPI = "http://localhost:5255/api/aluno";
 const urlAPICurso = "http://localhost:5255/api/curso";
 const urlAPIAluno = "http://localhost:5255/api/aluno";
 
@@ -31,13 +31,13 @@ export default class Carometro extends Component {
 
     renderTable() {
         return (
-            <div>
+            <div className= "ListaCards" >
                 {
                     this.state.lista.map((aluno) =>
                         <div className="card" key={aluno.id}>
-                            <img src={`${imgUrl}/${aluno.ra}.png?raw=true`} alt={aluno.ra} />
+                            <img src={`${imgUrl}/${aluno.ra}.png?raw=true`} alt={aluno.ra} className="img" />
                             <div className="container">
-                                <h4><b>{aluno.ra}</b></h4>
+                                <h4>{aluno.ra}</h4>
                                 <p>{aluno.nome}</p>
                             </div>
                         </div>

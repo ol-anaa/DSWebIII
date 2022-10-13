@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l05d5Ls1sWVkeB37RkS2RY2dhiM+Z747Q1Td5kaLSBzNsQ5z3Y8xIFHnui7wmLMeH4KBY8oJDDs2mfKpy02eSg==",
+  "dgSpecHash": "KFg6ogPOFTNRAFjxuVOo++vKevaGISm6LJY5SGTroMFdJRzkl/2oW9NP0qHmkmZ2IfB8xzNE9ln8MFCUky/2yQ==",
   "success": true,
-  "projectFilePath": "/Users/u21816/ProjetoEscola_API/ProjetoEscola_API.csproj",
+  "projectFilePath": "/Users/u21816/escola/DsWebIII/ProjetoEscola_API/ProjetoEscola_API.csproj",
   "expectedPackageFiles": [
     "/Users/u21816/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/u21816/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
