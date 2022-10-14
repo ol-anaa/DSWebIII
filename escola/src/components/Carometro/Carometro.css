@@ -17,17 +17,15 @@
 
 .container {
     padding: 2px 16px;
+    height: 80px;
 }
 
-.ListaCards{
+.lista-cards{
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
 .img{
     width: 200px;
-}
-
-.container{
-    height: 80px;
 }
