@@ -7,13 +7,15 @@ import Main from '../template/Main';
 
 const title = "Carômetro";
 
-const urlAPI = "http://localhost:5255/api/carometro";
+const urlAPI = "http://localhost:5255/api/aluno";
 const urlAPICurso = "http://localhost:5255/api/curso";
-const urlAPIAluno = "http://localhost:5255/api/aluno";
+
 
 const initialState = {
     aluno: { id: 0, ra: '', nome: '', codCurso: 0 },
-    lista: []
+    curso: { id: 0, codCurso: 0, nomeCurso: '', periodo: '' },
+    lista: [],
+    listaCurso: []
 }
 
 const imgUrl = 'https://avatars.githubusercontent.com/u/79612701?v=4';
@@ -26,11 +28,26 @@ export default class Carometro extends Component {
         axios(urlAPI)
         .then(result => {
             this.setState({lista: result.data})
+        });
+        axios(urlAPICurso).then(resp => {
+            this.setState({ listaCurso: resp.data })
         })
     }
 
+    renderForm(){
+        <div>
+            <select name="nomeCurso" id="codigoCurso">
+                {this.state.listaCurso.map((curso) =>
+                    <option key={curso.id} value={curso.codCurso}>{curso.nomeCurso}</option>
+                )}
+            </select>
+        </div>
+    }
+
+
     renderTable() {
         return (
+            
             <div>
                 {
                     this.state.lista.map((aluno) =>
