@@ -8,7 +8,7 @@ import Main from '../template/Main';
 const title = "Carômetro";
 
 const urlAPI = "http://localhost:5255/api/aluno";
-const urlAPICurso = "http://localhost:3000/api/curso";
+const urlAPICurso = "http://localhost:5255/api/curso";
 const urlAPIAluno = "http://localhost:5255/api/aluno";
 
 const initialState = {
@@ -18,7 +18,7 @@ const initialState = {
     listaCurso: []
 }
 
-const imgUrl = 'https://avatars.githubusercontent.com/u/79612701?v=4';
+const imgUrl = '';
 
 export default class Carometro extends Component {
 
@@ -40,7 +40,7 @@ export default class Carometro extends Component {
         {this.state.listaCurso.map((curso) =>
             <option key={curso.id} value={curso.codCurso}>{curso.nomeCurso}</option>
         )}
-        </select>
+    </select>
         )
     }
 
@@ -54,7 +54,6 @@ export default class Carometro extends Component {
                             <div className="container">
                                 <h4>{aluno.ra}</h4>
                                 <p>{aluno.nome}</p>
-                                <p>{aluno.codCurso}</p>
                             </div>
                         </div>
                     )
@@ -66,8 +65,8 @@ export default class Carometro extends Component {
     render() {
         return (
             <Main title={title}>
-                {this.renderTable()}
                 {this.renderForm()}
+                {this.renderTable()}
             </Main>
         )
     }
