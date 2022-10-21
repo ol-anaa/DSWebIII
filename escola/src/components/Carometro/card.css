@@ -1,29 +1,27 @@
-.card{
+.card-style{
     background-color: rgb(246, 242, 242);
-    box-shadow: 0px 0px 10px #0004;
     padding: 10px;
-    margin-right: 40px;
     border-radius: 7px;
     display: flex;
     text-align: center;
-
+    flex-direction: column;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    float: left;
 }
 
 img{
     border-radius: 7px;
 }
 
-.codCurso{
- padding: 5px;
- font-size: 18px;
-}
-
-.nome{
+.name-style{
     padding: 5px;
     font-size: 18px;
+    font-family: Roboto, sans-serif;
 }
 
-.ra{
+.ra-style{
     margin-top: 10px;
     padding: 5px;
     font-weight: bold;
